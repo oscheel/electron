@@ -2,37 +2,14 @@
 <html>
 <head>
     <title>Storygrid</title>
-    <script src="index.js"></script>
+    <link rel="stylesheet" type="text/css" href="style/css/app.css">
 </head>
 <body id="root">
 </body>
 <script>
-    import React from 'react';
-    import View from './app/layout/View/View'
-    import ReactDOM from "react-dom";
 
-    ReactDOM.render(
-        <View title={"myTitle"}/>,
-        document.getElementById('root')
-    )
 </script>
-<style>
-    html, body {
-        background-color: #252839 !important;
-      }
-      p {
-        align-content: center;
-        background-color: #495285;
-        color: #fff;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        min-height: 6em;
-      }
-      p > span {
-        opacity: 0.4;
-        text-align: center;
-      }
-</style>
+
+<script src="app/app.js"></script>
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css"></link>
 </html>
